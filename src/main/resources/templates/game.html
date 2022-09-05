@@ -46,8 +46,8 @@
       <div class="col-lg-8 mx-auto">
         <form action="#" th:action="@{/game}" th:object="${userAnswer}" method="post">
           <div class="form-row">
-            <h3 th:text="'Question ' + ${currentQuestionNumber} + '/' + ${totalQuestionNumber} + ':'"></h3>
-            <h4 th:text="${currentQuestion}"></h4>
+            <h3 th:text="'Question ' + ${currentQuestionNumber} + '/' + ${totalQuestionNumber} + ': '"></h3>
+            <h3 th:text="${currentQuestion}"></h3>
           </div>
           <div class="form-row">
             <div class="form-group">
