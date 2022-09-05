@@ -15,4 +15,5 @@ public class HealthcheckRestController {
         HealthcheckDto dto = new HealthcheckDto(true, "It's working!");
         return dto;
     }
+
 }

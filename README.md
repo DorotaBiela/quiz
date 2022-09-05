@@ -1,1 +1,1 @@
-# Quiz project with web interface.
+# quiz
